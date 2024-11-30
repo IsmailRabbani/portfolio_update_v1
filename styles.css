@@ -45,6 +45,12 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
+.nav .name:hover {
+    transform: scale(2.0) rotate(10deg);
+    color: #0399ff;
+
+}
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -86,7 +92,11 @@ header .profile-image:hover {
 }
 .location {
   background-color: #ff9904;
-  color: #3D5300;
+  color: black;
+}
+.experience {
+  background-color: #0399ff;
+  color: black;
 }
 .card {
   margin: 30px;
@@ -99,7 +109,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
@@ -203,4 +213,17 @@ a.social:hover {
     margin: 40px auto;
   }
 
+/* experience page card style */
+.experiencecard {
+  margin: 30px;
+  padding: 30px 60px 60px;
+  max-width: 900px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.experiencecard:hover {
+  border-color: #0399ff
 }
