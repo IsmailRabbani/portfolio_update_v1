@@ -214,7 +214,7 @@ a.social:hover {
   }
 
 /* experience page card style */
-.experiencecard {
+.experience-card {
   margin: 30px;
   padding: 30px 60px 60px;
   max-width: 900px;
@@ -224,6 +224,7 @@ a.social:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.experiencecard:hover {
-  border-color: #0399ff
+.experience-card:hover {
+  border-color: #0399ff;
+}
 }
